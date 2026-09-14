@@ -3,10 +3,10 @@ public class Mecanica {
         System.out.println("Bem-vindo à Mecânica!");
 
         String nomeCliente = "João Silva";
-        String servico = " Troca de óleo";
+        String servico = "Troca de óleo";
         String Carro = "Fiat Uno";
 
-        System.out.println("Cliente: " + nomeCliente);
+        System.out.println("\nCliente: " + nomeCliente);
         System.out.println("Serviço: " + servico);
         System.out.println("Carro: " + Carro);
 
@@ -15,7 +15,7 @@ public class Mecanica {
         for (double custo : custos) {
             total += custo;
         }
-        System.out.println("Total: R$ " + total);
+        System.out.println("\nTotal: R$ " + total);
 
     }
 }
